@@ -9,7 +9,7 @@ export interface MapglPluginConfiguration {
 }
 export type MapglPanelProps<TOptions> = PanelProps<TOptions> & { mapglPlugin?: MapglPluginConfiguration };
 export const defaultPluginConfiguration: MapglPluginConfiguration = Object.freeze({
-  pluginId: 'vaduga-mapgl-panel',
+  pluginId: 'k8s-mapgl-panel',
   edition: 'oss',
   features: Object.freeze([]),
 });

@@ -1,1 +1,1 @@
-export const PLUGIN_ID = 'vaduga-mapgl-panel';
+export const PLUGIN_ID = 'k8s-mapgl-panel';

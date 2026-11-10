@@ -7,7 +7,7 @@ services:
       args:
         grafana_version: ${GRAFANA_VERSION:-12.4.3-security-02}
     volumes:
-      - $PWD/dist:/var/lib/grafana/plugins/vaduga-mapgl-panel
+      - $PWD/dist:/var/lib/grafana/plugins/k8s-mapgl-panel
       - $PWD/.seed:/usr/share/grafana/public/seed
       - $PWD/.seed/public_svg:/usr/share/grafana/public/img/icons/mapgl
       - $PWD/provisioning:/etc/grafana/provisioning

@@ -489,7 +489,7 @@
         }
       ],
       "title": "Multi-hop routing",
-      "type": "vaduga-mapgl-panel"
+      "type": "k8s-mapgl-panel"
     },
     {
       "datasource": {
@@ -961,7 +961,7 @@
         }
       ],
       "title": "Namespace subgraphs",
-      "type": "vaduga-mapgl-panel"
+      "type": "k8s-mapgl-panel"
     }
   ],
   "preload": false,

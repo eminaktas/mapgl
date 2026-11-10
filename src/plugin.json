@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
-  "name": "Mapgl",
-  "id": "vaduga-mapgl-panel",
+  "name": "K8s Mapgl",
+  "id": "k8s-mapgl-panel",
   "info": {
     "keywords": [
       "node graph",
@@ -18,9 +18,10 @@
       "nodegraph",
       "deckgl"
     ],
-    "description": "Node Graph and Network Geomap",
+    "description": "Fork of Mapgl for Kubernetes network maps: ELK layout, node cards, line labels",
     "author": {
-      "name": "Vadim Pyatakov"
+      "name": "eminaktas",
+      "url": "https://github.com/eminaktas/mapgl"
     },
     "logos": {
       "small": "img/logo.svg",
@@ -29,14 +30,14 @@
     "links": [
       {
         "name": "Repository",
+        "url": "https://github.com/eminaktas/mapgl"
+      },
+      {
+        "name": "Upstream (Mapgl by Vadim Pyatakov)",
         "url": "https://github.com/vaduga/mapgl"
       },
       {
-        "name": "Website",
-        "url": "https://mapgl.org"
-      },
-      {
-        "name": "Documentation",
+        "name": "Upstream documentation",
         "url": "https://mapgl.org/documentation"
       }
     ],

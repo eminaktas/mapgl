@@ -93,7 +93,7 @@ async function loadSvgIcons(
   names: string[],
   svgIcons: Record<string, any>,
   loadController: AbortController,
-  pluginId = 'vaduga-mapgl-panel'
+  pluginId = 'k8s-mapgl-panel'
 ): Promise<Record<string, any>> {
   if (!names?.length) {
     return svgIcons;

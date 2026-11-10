@@ -1,7 +1,7 @@
 services:
   grafana:
     user: root
-    container_name: 'vaduga-mapgl-panel'
+    container_name: 'k8s-mapgl-panel'
 
     build:
       context: .
@@ -13,13 +13,13 @@ services:
     ports:
       - 3000:3000/tcp
     volumes:
-      - ../dist:/var/lib/grafana/plugins/vaduga-mapgl-panel
+      - ../dist:/var/lib/grafana/plugins/k8s-mapgl-panel
       - ../provisioning:/etc/grafana/provisioning
-      - ..:/root/vaduga-mapgl-panel
+      - ..:/root/k8s-mapgl-panel
 
     environment:
       NODE_ENV: development
-      GF_LOG_FILTERS: plugin.vaduga-mapgl-panel:debug
+      GF_LOG_FILTERS: plugin.k8s-mapgl-panel:debug
       GF_LOG_LEVEL: debug
       GF_DATAPROXY_LOGGING: 1
-      GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS: vaduga-mapgl-panel
+      GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS: k8s-mapgl-panel
