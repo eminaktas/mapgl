@@ -45,6 +45,6 @@ docker_data/grafana_data
 
 /.vscode/launch.json
 
-/vaduga-mapgl-panel/
+/k8s-mapgl-panel/
 /grafana-instructions.txt
 /.seed/t.sqlite

@@ -476,7 +476,7 @@
           }
         }
       ],
-      "type": "vaduga-mapgl-panel"
+      "type": "k8s-mapgl-panel"
     }
   ],
   "preload": false,

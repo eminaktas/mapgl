@@ -8,7 +8,7 @@ import { getMapglPluginId } from '../../../../plugin-factory/pluginRuntime';
 //---------------------------------------------------------
 // Resource dimension
 //---------------------------------------------------------
-export function getPublicOrAbsoluteUrl(v: string, pluginId = 'vaduga-mapgl-panel'): string {
+export function getPublicOrAbsoluteUrl(v: string, pluginId = 'k8s-mapgl-panel'): string {
   if (!v) {
     return '';
   }

@@ -192,7 +192,7 @@
         }
       ],
       "title": "Unified graph",
-      "type": "vaduga-mapgl-panel"
+      "type": "k8s-mapgl-panel"
     },
     {
       "datasource": {
@@ -265,7 +265,7 @@
         }
       ],
       "title": "Empty graph",
-      "type": "vaduga-mapgl-panel"
+      "type": "k8s-mapgl-panel"
     },
     {
       "datasource": {
@@ -338,7 +338,7 @@
         }
       ],
       "title": "Missing configured field",
-      "type": "vaduga-mapgl-panel"
+      "type": "k8s-mapgl-panel"
     },
     {
       "datasource": {
@@ -421,7 +421,7 @@
         }
       ],
       "title": "Partially valid graph",
-      "type": "vaduga-mapgl-panel"
+      "type": "k8s-mapgl-panel"
     }
   ],
   "refresh": "",

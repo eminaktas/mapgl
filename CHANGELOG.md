@@ -1,5 +1,13 @@
 # Changelog Mapgl
 
+## 1.0.0 (K8s Mapgl fork, 2026-11-09)
+- fork of Mapgl 2.11.2 as `k8s-mapgl-panel`
+- feat: ELK layered layout engine across namespace boxes; hub graphs spread over columns
+- feat: node cards (label box sized to its text, edges end on the card border)
+- feat: template text mode (`${field}` with display values)
+- feat: routed lines with moving pulses; labels at both ends and a middle badge, decluttered map-wide
+- fix: arrow heads capped on thick lines
+
 ## 2.11.2
 - fix: recover layout; dim unrelated cross-namespace edges
 - refactor: host-neutral selection and graph tooltip, commit graph synchronous hook

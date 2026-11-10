@@ -526,7 +526,7 @@
         }
       ],
       "title": "Traces+Service dependency graph",
-      "type": "vaduga-mapgl-panel"
+      "type": "k8s-mapgl-panel"
     }
   ],
   "preload": false,
